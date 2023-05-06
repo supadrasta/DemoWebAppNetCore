@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Web App DemoWebAppNetCore2023050
 on:
   push:
     branches:
-    - master
+    - main
 env:
   AZURE_WEBAPP_NAME: DemoWebAppNetCore20230506121838
   AZURE_WEBAPP_PACKAGE_PATH: ./published
